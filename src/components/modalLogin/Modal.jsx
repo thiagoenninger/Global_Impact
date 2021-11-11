@@ -13,11 +13,11 @@ const Modal = props => {
           </div>
           <div className="modal-body-login">
             <form className="form-login">
-              <label for="usuario">Usuário</label>
-              <input type="text" name="usuario"/>
+              <label for="usuario"></label>
+              <input type="text" name="usuario" placeholder="Usuário"/>
 
-              <label for="senha">Senha</label>
-              <input type="text" name="senha"/>
+              <label for="senha"></label>
+              <input type="text" name="senha" placeholder="Senha"/>
 
               <p className="p-modal-login">Esqueceu a senha?<a href="#"> Clique aqui.</a></p>
             </form>
