@@ -1,0 +1,124 @@
+.container-home{
+  width: 100%;
+  height: 2362px;
+  background-color: #000;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* DIV IMG E MENSAGEM DE IMPACTO */
+.cabecalho{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  border-bottom: 3px solid #fff;
+}
+
+.cabecalho img{
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  opacity: .75;
+}
+
+.cabecalho-texto{
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 3px 3px 2px #000;
+}
+
+.cabecalho-texto h1{
+  font-size: 64px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.cabecalho-texto h3{
+  font-size: 32px;
+  font-weight: 500;
+}
+
+/* DIV CARD RESERVAS DE PRODUTOS */
+
+.card-reserva{
+  width: 100%;
+  height: 898px;
+  background-color: #202020;
+}
+
+/* DIV INFOS E FORM CONTATO */
+
+.contato{
+  width: 100%;
+  height: 869px;
+  background-color: #202020;
+  display: flex;
+}
+
+.info-fooddev{
+  width: 50%;
+  height: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.info-fooddev h1{
+  font-size:60px;
+  text-align: center;
+}
+
+.info-fooddev h1, p{
+  margin: 10px auto;
+}
+
+/* Formulário */
+.form-contato{
+  width: 50%;
+  height: 100%;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-contato input{
+  width: 500px;
+  border-bottom: 1px solid #fff;
+  margin: 10px auto;
+  outline: none;
+  background-color: #202020;
+}
+
+.form-contato textarea{
+  margin-top: 15px;
+  color: #fff;
+  background-color: #202020;
+  border-radius: 5px;
+}
+
+.form-contato hr{
+  border: none;
+}
+
+#form-botao{
+  width: 400px;
+  height: 50px;
+  background-color: #40876d;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  margin: 20px auto;
+}

@@ -15,6 +15,7 @@
   pointer-events: none;
   font-family: 'Roboto';
   font-weight: 500;
+  z-index: 2;
 }
 
 .modal.show{
@@ -63,6 +64,10 @@
   background-color: #40876D;
   border: none;
   border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #35705a;
 }
 
 /* FORM LOGIN DO MODAL */

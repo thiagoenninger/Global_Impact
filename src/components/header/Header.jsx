@@ -10,7 +10,7 @@ export default function Header() {
       <div className="Navbar">
         <div className="leftSide">
           <div className="links">
-            <a href="#">FOOD/DEV</a>
+            <a href="#">&lt;FOOD/DEV&gt;</a>
           </div>
         </div>
         <div className="rightSide">

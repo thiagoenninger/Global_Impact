@@ -12,7 +12,7 @@ export default function Footer() {
         <div>
             <footer>
                 <div className="footerE">       
-                    <h4 className="logofooter">FOOD/DEV</h4>
+                    <h4 className="logofooter">&lt;FOOD/DEV&gt;</h4>
                 </div>
                 
                 <div className="footerD">
