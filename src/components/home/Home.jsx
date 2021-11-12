@@ -3,6 +3,8 @@ import Footer from '../footer/Footer'
 import Header from '../header/Header'
 
 import CapaHome from '../img/capa_home.jpg'
+import Tomates from '../img/tomates.jpg'
+import NaoPerecivel from '../img/nao_perecivel.jpg'
 
 import './Home.css'
 
@@ -18,8 +20,19 @@ export default function Home() {
             <h3>A OPÇÃO É SUA</h3>
           </div>
         </div>
-        <div className="card-reserva">
-          aqui terá 2 cards de reserva
+        <div className="cards-reserva">
+         <div className="card-01">
+           <img src={Tomates} alt="imagem de tomates" width="450px" />
+           <div className="barra"></div>
+           <p className="texto-card">Produtos de validade rápida</p>
+           <button className="btn-reserva"><a href="#">Reservar</a></button>
+         </div>
+         <div className="card-02">
+           <img src={NaoPerecivel} alt="Produtos não pereciveis" width="450px" />
+           <div className="barra"></div>
+           <p className="texto-card">Produtos não perecíveis</p>
+           <button className="btn-reserva"><a href="#">Reservar</a></button>
+         </div>
         </div>
         <div className="contato">
           <div className="info-fooddev">
