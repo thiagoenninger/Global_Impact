@@ -1,0 +1,107 @@
+.container-cadastro{
+  width: 100%;
+  height: 100%;
+  background-color: #202020;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+/* DIV IMG E TEXTO */
+.topo{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  border-bottom: 3px solid #fff;
+}
+
+.topo img{
+  width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  opacity: 0.75;
+}
+
+.topo-texto{
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 3px 3px 2px #000;
+}
+
+.topo-texto h1{
+  font-size: 64px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+
+.topo-texto p{
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+}
+
+/* H1 CADASTRO */
+
+#titulo-cadastro{
+  margin: 150px auto 50px;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+/* DIV FORMULARIO */
+
+.form-cadastro{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px;
+}
+
+.form-cadastro label{
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.form-cadastro input{
+  width: 510px;
+  height: 30px;
+  background-color: #202020;
+  border-bottom: 3px solid #fff;
+  padding: 0 10px;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 20px auto;
+}
+
+.complemento{
+  display: flex;
+  justify-content: space-between;
+}
+
+.complemento input{
+  width: 160px;
+  text-align: left;
+}
+
+.form-cadastro button{
+  width: 510px;
+  height: 50px;
+  color: #fff;
+  background-color: #000;
+  border: none;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 30px auto;
+  align-self: center;
+}
+
+.form-cadastro button:hover{
+  background-color: #40876d;
+}
