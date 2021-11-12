@@ -1,0 +1,50 @@
+.container-equipe{
+  width: 100%;
+  height: 800px;
+  background-color: #202020;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.equipe{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.equipe h4{
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.equipe p{
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.nome-esq{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.nome-dir{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.dev{
+  margin: 50px auto;
+}
+
+.dev-dir{
+  margin: 120px auto 0 auto;
+}
