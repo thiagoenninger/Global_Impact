@@ -1,0 +1,54 @@
+.container-doacao{
+  width: 100%;
+  height: 100vh;
+  background-color: #202020;
+  margin: 0;
+  padding: 0;
+}
+
+.upload-arquivo{
+  width:400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.upload-arquivo h1{
+  margin: 125px auto 25px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+.upload-arquivo input, button{
+  margin: 50px auto;
+}
+
+.upload-arquivo button{
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  width: 200px;
+  height: 40px;
+}
+
+.upload-arquivo button:hover{
+  background-color: #40876d;
+}
+
+.enviar-arquivo{
+  background-color: #424242;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px dashed rgb(199, 199, 199);
+  border-radius: 10px;
+  margin: 50px auto;
+}

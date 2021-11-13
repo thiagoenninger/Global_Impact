@@ -45,7 +45,80 @@
   font-weight: 500;
 }
 
-/* DIV CARD RESERVAS DE PRODUTOS */
+/*DIV CONTAINER PARCEIROS*/
+
+.container-parceiros{
+  width: 100%;
+  height: 1300px;
+  margin: 0 auto;
+  background-color: #202020;
+}
+
+#titulo-parceiros{
+  text-align: center;
+  font-size: 48px;
+  margin: 50px auto;
+}
+
+#barraDivisoria{
+  width: 100%;
+  height: 10%;
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.parceiro-01, .parceiro-02{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 55px auto;
+}
+
+
+.parceiro-01 img, .parceiro-02 img{
+  width: 49%;
+  height: 450px;
+  margin: 0;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.parceiro-02 img{
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.texto-parceiro{
+  width: 49%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  text-justify: inter-word;
+}
+
+/* ANIMAÇÃO IMAGENS MERCADOS */
+.imagem-mercado{
+  transition: transform 1s;
+  transform: translateX(-700px);
+}
+
+.imagem-mercado-pao{
+  transition: transform 1s;
+  transform: translateX(700px);
+}
+
+.imagem-mercado.hasAnimated{
+  transform: translateX(0);
+}
+
+.imagem-mercado-pao.hasAnimated{
+  transform: translateX(0);
+}
+
+
+/* DIV CARD RESERVAS DE PRODUTOS ----> DESABILITADO */
 
 .cards-reserva{
   width: 100%;

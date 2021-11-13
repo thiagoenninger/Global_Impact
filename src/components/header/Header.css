@@ -24,7 +24,7 @@
 .Navbar .leftSide .links a{
   text-decoration: none;
   color: #fff;
-  font-size: 24px;
+  font-size: 18px;
   padding: 15px;
 }
 
@@ -48,7 +48,7 @@
 .Navbar .rightSide .links a{
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   padding: 15px;
 }
 
@@ -64,7 +64,7 @@
   background-color: #202020;
   border: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 14px;
   border-radius: 5px;
   padding: 5px 10px;
 }
