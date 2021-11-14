@@ -10,15 +10,15 @@ export default function Header() {
       <div className="Navbar">
         <div className="leftSide">
           <div className="links">
-            <a href="#">&lt;FOOD/DEV&gt;</a>
+            <a href="/">&lt;FOOD/DEV&gt;</a>
           </div>
         </div>
         <div className="rightSide">
           <div className="links">
-            <a href="#">Formulário Doação</a>
+            <a href="paginaDoacao">Doação</a>
             <a href="#">Reservar Produtos</a>
-            <a href="#">Cadastro</a>
-            <a href="#">Quem Somos</a>
+            <a href="cadastro">Cadastro</a>
+            <a href="quemSomos">Quem Somos</a>
           </div>
           <div className="ModalHeader">
                 <button className="botao-login" onClick={() => setShow(true)}>

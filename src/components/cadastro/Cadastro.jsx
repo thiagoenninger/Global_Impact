@@ -8,6 +8,8 @@ import Capa from '../img/capa_cadastro.jpg'
 import './Cadastro.css'
 
 export default function Cadastro() {
+
+
   return (
     <div>
         <Header/>
@@ -33,7 +35,7 @@ export default function Cadastro() {
               <input type="password" />
 
               <label>Telefone (DDD)</label>
-              <input type="text" />
+              <input type="text" name="telefone"/>
 
               <label>Endereço</label>
               <input type="text" />
