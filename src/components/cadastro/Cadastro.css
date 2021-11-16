@@ -105,3 +105,36 @@
 .form-cadastro button:hover{
   background-color: #40876d;
 }
+
+@media (max-width: 480px)
+{
+
+  #titulo-cadastro{
+    font-size: 2.5em;
+  }
+
+  .topo {
+    display: none;
+  }
+
+  .form-cadastro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-cadastro input{
+    width: 80%;
+  }
+
+  .complemento{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-cadastro button{
+    width: 80%;
+  }
+
+}
