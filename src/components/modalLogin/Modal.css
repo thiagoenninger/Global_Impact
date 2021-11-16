@@ -27,7 +27,7 @@
   width: 350px;
   padding: 15px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: #202020;
   transform: translateY(-200px);
   transition: all 0.3s ease-in-out;
 }
@@ -44,7 +44,7 @@
   text-align: center;
   margin: 10px auto;
   font-size: 26px;
-  color: rgb(65, 65, 65);
+  color: #fff;
 }
 
 .modal-body-login{
@@ -62,13 +62,13 @@
   width: 100px;
   height: 30px;
   color: #fff;
-  background-color: #40876D;
+  background-color: #000;
   border: none;
   border-radius: 5px;
 }
 
 .button:hover{
-  background-color: #35705a;
+  background-color: #40876D;
 }
 
 /* FORM LOGIN DO MODAL */
@@ -88,7 +88,8 @@
 }
 
 .form-login input{
-  color: #000;
+  color: #fff;
+  background-color: #202020;
   width: 300px;
   border-bottom: 2px solid #adadad;
   margin: 0 auto;
@@ -101,6 +102,6 @@
 
 .form-login a{
   text-decoration: none;
-  color: #000;
+  color: #40876D;
   font-weight: 500;
 }

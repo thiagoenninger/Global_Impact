@@ -16,7 +16,7 @@ export default function Header() {
         <div className="rightSide">
           <div className="links">
             <a href="paginaDoacao">Doação</a>
-            <a href="#">Reservar Produtos</a>
+            <a href="reservaProdutos">Reservar Produtos</a>
             <a href="cadastro">Cadastro</a>
             <a href="quemSomos">Quem Somos</a>
           </div>

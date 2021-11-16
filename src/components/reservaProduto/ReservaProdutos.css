@@ -1,0 +1,80 @@
+.pg-reserva{
+  width: 100%;
+  background-color: #202020;
+}
+
+.container-reserva{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.produtos-vr, .produtos-np, .produtos-hp{
+  width: 900px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.produtos-vr h3, .produtos-np h3, .produtos-hp h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: #fff;
+}
+
+.produtos-vr input, .produtos-np input , .produtos-hp input{
+  cursor: pointer;
+  outline: none;
+}
+
+
+.box-produtos{
+  width: 900px;
+  border: 2px solid #fff;
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+}
+
+.produto-a{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #111111;
+}
+
+.produto-b{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #292929;
+}
+
+.produto-a p, .produto-b p{
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.btn-reservar{
+  width: 150px;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #000;
+  align-self: flex-end;
+}
+
+.btn-reservar:hover{
+  background-color: #40876d;
+}
