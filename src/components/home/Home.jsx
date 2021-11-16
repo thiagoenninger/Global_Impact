@@ -37,7 +37,7 @@ export default function Home() {
   }
 
   useEffect(() => {
-    if (scrollPosition > 600 && !hasAnimated) {
+    if (scrollPosition > 500 && !hasAnimated) {
       animatePao();
     }
     if (scrollPosition > 900 && !hasAnimated2) {

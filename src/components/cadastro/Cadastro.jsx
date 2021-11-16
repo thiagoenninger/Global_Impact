@@ -1,4 +1,5 @@
 import React from 'react'
+import InputMask from 'react-input-mask'	
 
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
@@ -35,7 +36,7 @@ export default function Cadastro() {
               <input type="password" />
 
               <label>Telefone (DDD)</label>
-              <input type="text" name="telefone"/>
+              <InputMask mask="(99)99999-9999"/>
 
               <label>Endereço</label>
               <input type="text" />
