@@ -1,6 +1,5 @@
 import React from 'react'
 import {BrowserRouter, Route, Routes} from 'react-router-dom'
-
 import Cadastro from './components/cadastro/Cadastro'
 import Home from './components/home/Home'
 import PaginaDoacao from './components/paginaDoacao/PaginaDoacao'

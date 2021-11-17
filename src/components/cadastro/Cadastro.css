@@ -143,9 +143,6 @@
   .form-cadastro button{
     width: 80%;
   }
-
-
-
 }
 
 @media (min-width: 481px) and (max-width: 630px) {
@@ -164,6 +161,6 @@
   }
 
   .form-cadastro button{
-    width: 405px;
+    width: 400px;
   }
 }
