@@ -5,6 +5,7 @@ import Footer from '../footer/Footer'
 import Header from '../header/Header'
 
 import Capa from '../img/capa_cadastro.jpg'
+import Barra from '../img/barraQuemSomos.png'
 
 import './Cadastro.css'
 
@@ -24,6 +25,9 @@ export default function Cadastro() {
             </div>
           </div>
           <h1 id="titulo-cadastro">CADASTRO</h1>
+          <div className="barra-equipe">
+            <img src={Barra} alt="Barra divisória" className="img-barra"/>
+          </div>
           <div className="form-cadastro">
             <form>
               <label>Nome</label>

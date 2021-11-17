@@ -40,6 +40,8 @@
   margin: 20px 0;
 }
 
+
+
 .topo-texto p{
   font-size: 32px;
   font-weight: 500;
@@ -47,6 +49,11 @@
 }
 
 /* H1 CADASTRO */
+
+.barra-equipe{
+  margin: 0 auto;
+
+}
 
 #titulo-cadastro{
   margin: 100px auto 50px;
@@ -104,4 +111,59 @@
 
 .form-cadastro button:hover{
   background-color: #40876d;
+}
+
+@media (max-width: 480px)
+{
+
+  #titulo-cadastro{
+    font-size: 2.5em;
+  }
+
+  .topo {
+    display: none;
+  }
+
+  .form-cadastro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .form-cadastro input{
+    width: 80%;
+  }
+
+  .complemento{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-cadastro button{
+    width: 80%;
+  }
+
+
+
+}
+
+@media (min-width: 481px) and (max-width: 630px) {
+  .form-cadastro input{
+    width: 400px;
+  }
+
+  .form-cadastro label{
+    width: 400px;
+  }
+
+  .complemento{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-cadastro button{
+    width: 405px;
+  }
 }
