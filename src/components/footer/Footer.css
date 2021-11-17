@@ -30,9 +30,9 @@
   }
 
 
-  @media (max-width: 530px){
+  @media (max-width: 550px){
     footer{
-      height: 40px;
+      height: 50px;
       padding: 0;
       bottom: 0;
       width: 100vw;
@@ -42,11 +42,17 @@
     .logofooter{
       margin-left: 15px;
     }
+
+    .footerD{
+      padding: 0;
+      display: flex;
+      align-content: center;
+    }
   }
 
-  @media (min-width: 531px) and (max-width: 1024px){
+  @media (min-width: 551px) and (max-width: 1024px){
     footer{
-      height: 40px;
+      height: 50px;
       padding: 0;
       bottom: 0;
       width: 100vw;
@@ -55,6 +61,11 @@
 
     .logofooter{
       margin-left: 20px;
+    }
+    .footerD{
+      padding: 0;
+      display: flex;
+      align-content: center;
     }
   }
 

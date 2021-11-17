@@ -94,20 +94,20 @@ export default function Home() {
           <div className="form-contato">
             <form>
               <label >Nome</label>
-              <input type="text"/>
+              <input type="text" required/>
 
               <label>Email</label>
-              <input type="email" />
+              <input type="email" required/>
 
               <label>Telefone</label>
-              <input type="text" />
+              <input type="text" required/>
 
               <label>Assunto</label>
-              <input type="text" />
+              <input type="text" required/>
 
               <label>Mensagem</label>
               <hr />
-              <textarea cols="50" rows="10"></textarea>
+              <textarea cols="50" rows="10" required></textarea >
 
               <input type="submit" value="Enviar" id="form-botao"/>
             </form>

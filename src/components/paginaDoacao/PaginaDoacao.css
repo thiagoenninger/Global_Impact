@@ -52,3 +52,13 @@
   border-radius: 10px;
   margin: 50px auto;
 }
+
+@media (max-width: 520px){
+  .enviar-arquivo{
+    width: 90%;
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

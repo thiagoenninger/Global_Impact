@@ -15,7 +15,7 @@ function paginaDoacao() {
           <div className="upload-arquivo">
             <h1>Faça aqui o upload <br/> do arquivo .csv</h1>
             <div className="enviar-arquivo">
-              <input type="file" name="arquivo" />
+              <input type="file" name="arquivo" required/>
             </div>
             <button type="submit">Enviar</button>
           </div>
