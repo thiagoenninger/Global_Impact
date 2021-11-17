@@ -79,3 +79,21 @@
 .btn-reservar:hover{
   background-color: #40876d;
 }
+
+@media (min-width: 375px) and (max-width: 1024px){
+  .container-reserva{
+    width: 100%;
+  }
+  .box-produtos{
+    width: 100%;
+  }
+  .produtos-vr, .produtos-np, .produtos-hp{
+    width: 90%;
+  }
+  .produto-a, .produto-b{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+  }
+}

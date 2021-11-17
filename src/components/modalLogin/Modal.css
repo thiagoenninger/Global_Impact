@@ -27,7 +27,7 @@
   width: 350px;
   padding: 15px;
   border-radius: 10px;
-  background-color: #202020;
+  background-color: rgb(226, 226, 226);
   transform: translateY(-200px);
   transition: all 0.3s ease-in-out;
 }
@@ -44,7 +44,7 @@
   text-align: center;
   margin: 10px auto;
   font-size: 26px;
-  color: #fff;
+  color: #202020;
 }
 
 .modal-body-login{
@@ -62,7 +62,7 @@
   width: 100px;
   height: 30px;
   color: #fff;
-  background-color: #000;
+  background-color: #202020;
   border: none;
   border-radius: 5px;
 }
@@ -89,7 +89,7 @@
 
 .form-login input{
   color: #fff;
-  background-color: #202020;
+  background-color: rgb(226, 226, 226);
   width: 300px;
   border-bottom: 2px solid #adadad;
   margin: 0 auto;

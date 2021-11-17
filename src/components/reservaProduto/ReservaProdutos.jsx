@@ -53,7 +53,7 @@ export default function ReservaProdutos() {
                 </div>
 
               </div>
-              <button type="submit" className="btn-reservar">Reservar</button>
+              <button type="submit" value="Enviar" className="btn-reservar">Reservar</button>
             </div>
 
             <div className="produtos-np">
