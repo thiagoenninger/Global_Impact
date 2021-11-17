@@ -25,7 +25,7 @@
   text-decoration: none;
   color: #fff;
   font-size: 18px;
-  padding: 15px;
+  margin-left: 15px;
 }
 
 .Navbar .leftSide button{
@@ -34,8 +34,8 @@
   margin-left: 15px;
 }
 
-.Navbar .leftSide #hidden{
-  display: flex;
+.Navbar .rightSide #btn-responsivo{
+  display: none;
 }
 
 .Navbar .rightSide{
@@ -50,6 +50,11 @@
   color: #fff;
   font-size: 14px;
   padding: 15px;
+}
+
+
+.Navbar .rightSide #hidden{
+  display: flex;
 }
 
 /*=======Botão Login=======*/
@@ -75,49 +80,64 @@
 
 /*========= MEDIA QUERIES =========*/
 @media only screen and (max-width: 820px) {
+  .Navbar .rightSide .links a{
+    font-size: 14px;
+    padding: 10px;
+  }
   .Navbar .leftSide .links a{
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
-@media only screen and (max-width: 702px) {
-  .Navbar .leftSide .links a{
-    font-size: 0.85rem;
+@media only screen and (max-width: 751px) {
+  .Navbar .rightSide{
+    width: 80%;
+  }
+  .Navbar .rightSide .links a{
+    font-size: 12px;
+    padding: 5px;
+  }
+  .Navbar .leftSide{
+    width: 20%;
   }
 }
 
-@media only screen and (max-width: 630px){
-  .Navbar .leftSide button{
+@media only screen and (max-width: 620px) {
+  .Navbar .rightSide #btn-responsivo{
     display: flex;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #202020;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
   }
 
-  .Navbar .leftSide .links{
+  .Navbar .rightSide .links{
     display: none;
   }
 
-  .Navbar .leftSide #hidden{
+  .Navbar .rightSide #hidden{
     position: absolute;
-    left: 0;
+    right: 0px;
     top: 60px;
-    height: 250px;
-    max-height: 250px;
+    height: 180px;
     width: 30%;
-    border-bottom-right-radius: 15px;
-    background-color: #245E6E;
-    opacity: 0.9;
+    background-color: #202020;
+    z-index: 3;
     display: flex;
     flex-direction: column;
-    align-items: left;
-    justify-content: center;
-    z-index: 150;
+    justify-content: space-between;
+    align-items: flex-start;
+    float: right;
+    padding: 15px;
+  }
+  .Navbar .rightSide #hidden a{
+    font-size: 16px;
+    font-weight: 500;
   }
 
-  .Navbar .leftSide #hidden:hover{
-    opacity: 1;
-  }
-
-  .Navbar .leftSide #hidden a{
-    padding: 10px;
-    font-size: 1.25rem;
-  }
 }
