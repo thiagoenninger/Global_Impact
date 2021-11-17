@@ -4,8 +4,6 @@ import Footer from '../footer/Footer'
 import Header from '../header/Header'
 
 import CapaHome from '../img/capa_home.jpg'
-// import Tomates from '../img/tomates.jpg'
-// import NaoPerecivel from '../img/nao_perecivel.jpg'
 import Zaffari from '../img/zaffari.jpg'
 import PaoAcucar from '../img/pao_de_acucar.jpg'
 import Barra from '../img/barraQuemSomos.png'
@@ -120,19 +118,3 @@ export default function Home() {
     </div>
   )
 }
-
-/*
-  ref={imageRef}
-
-<div className="card-01">
-           <img src={Tomates} alt="imagem de tomates" width="450px" />
-           <div className="barra"></div>
-           <p className="texto-card">Produtos de validade rápida</p>
-           <button className="btn-reserva"><a href="#">Reservar</a></button>
-         </div>
-         <div className="card-02">
-           <img src={NaoPerecivel} alt="Produtos não pereciveis" width="450px" />
-           <div className="barra"></div>
-           <p className="texto-card">Produtos não perecíveis</p>
-           <button className="btn-reserva"><a href="#">Reservar</a></button>
-           </div>*/

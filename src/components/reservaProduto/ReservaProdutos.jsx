@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useRef, useEffect, useState} from 'react'
 import Footer from '../footer/Footer'
 import Header from '../header/Header'
+
 
 import './ReservaProdutos.css'
 
 export default function ReservaProdutos() {
+
+  
+
   return (
     <div className="pg-reserva">
         <Header/>
@@ -49,7 +53,7 @@ export default function ReservaProdutos() {
                 </div>
 
               </div>
-              <button className="btn-reservar">Reservar</button>
+              <button type="submit" className="btn-reservar">Reservar</button>
             </div>
 
             <div className="produtos-np">
@@ -92,7 +96,7 @@ export default function ReservaProdutos() {
                 </div>
 
               </div>
-              <button className="btn-reservar">Reservar</button>
+              <button type="submit" className="btn-reservar">Reservar</button>
             </div>
             
             <div className="produtos-hp">
@@ -135,7 +139,7 @@ export default function ReservaProdutos() {
                 </div>
 
               </div>
-              <button className="btn-reservar">Reservar</button>
+              <button type="submit" className="btn-reservar">Reservar</button>
             </div>
           </div>
         <Footer/>

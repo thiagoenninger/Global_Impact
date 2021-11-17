@@ -28,7 +28,6 @@
   outline: none;
 }
 
-
 .box-produtos{
   width: 900px;
   border: 2px solid #fff;
@@ -47,6 +46,7 @@
   background-color: #111111;
 }
 
+
 .produto-b{
   width: 100%;
   margin: 0 auto;
@@ -62,6 +62,7 @@
   font-family: 'Roboto', sans-serif;
   
 }
+
 
 .btn-reservar{
   width: 150px;
