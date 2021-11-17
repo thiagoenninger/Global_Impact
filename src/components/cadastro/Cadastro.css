@@ -40,6 +40,8 @@
   margin: 20px 0;
 }
 
+
+
 .topo-texto p{
   font-size: 32px;
   font-weight: 500;
@@ -47,6 +49,11 @@
 }
 
 /* H1 CADASTRO */
+
+.barra-equipe{
+  margin: 0 auto;
+
+}
 
 #titulo-cadastro{
   margin: 100px auto 50px;
@@ -137,4 +144,26 @@
     width: 80%;
   }
 
+
+
+}
+
+@media (min-width: 481px) and (max-width: 630px) {
+  .form-cadastro input{
+    width: 400px;
+  }
+
+  .form-cadastro label{
+    width: 400px;
+  }
+
+  .complemento{
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .form-cadastro button{
+    width: 400px;
+  }
 }
