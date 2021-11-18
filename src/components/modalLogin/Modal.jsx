@@ -19,7 +19,7 @@ const Modal = props => {
               <label for="senha"></label>
               <input type="text" name="senha" placeholder="Senha"/>
 
-              <p className="p-modal-login">Esqueceu a senha?<a href="#"> Clique aqui.</a></p>
+              <p className="p-modal-login">Esqueceu a senha?<a href="/cadastro"> Clique aqui.</a></p>
             </form>
           </div>
           <div className="modal-footer">
