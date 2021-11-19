@@ -46,7 +46,7 @@ function PaginaDoacao() {
         <div className="barra"><img src={Barra} alt="Bara divisória" /></div>
         <div className="container-produtos">
           <button className="btn-incluir">
-            <Link to="/incluir" style={{ textDecoration: 'none' }}><p>Adicionar Produto</p></Link>
+            <a href="/inserirProduto" style={{ textDecoration: 'none' }}><p>Adicionar Produto</p></a>
           </button>
           <table border="0">
             <thead>
@@ -99,4 +99,6 @@ export default PaginaDoacao;
               <input type="file" name="arquivo" required/>
             </div>
             <button type="submit">Enviar</button>
-          </div> */
+          </div> 
+          <Link to="/incluir" style={{ textDecoration: 'none' }}><p>Adicionar Produto</p></Link>
+          */

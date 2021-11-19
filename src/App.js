@@ -5,6 +5,7 @@ import Home from './components/home/Home'
 import PaginaDoacao from './components/paginaDoacao/PaginaDoacao'
 import QuemSomos from './components/quemSomos/QuemSomos'
 import ReservaProdutos from './components/reservaProduto/ReservaProdutos'
+import AdicaoProduto from './components/addProduto/AdicaoProduto'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/paginaDoacao" element={<PaginaDoacao />} />
           <Route path="/quemSomos" element={<QuemSomos />} />
           <Route path="/reservaProdutos" element={<ReservaProdutos/>} />
+          <Route path="/inserirProduto" element={<AdicaoProduto/>} />
         </Routes>
       </BrowserRouter>
     </div>
