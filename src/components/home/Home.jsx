@@ -70,16 +70,16 @@ export default function Home() {
          <div className="parceiro-01" >
           <img ref={imageRef} className="imagem-mercado-pao" src={PaoAcucar} alt="Imagem do mercado Pão de Açucar"/> 
             <div className="texto-parceiro">
-              <h1>Pão de Açucar</h1>
+              <h1>Pão de Açúcar</h1>
               <img id="barraDivisoria" src={Barra} alt="barra divisória" />
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod enim, molestiae quisquam harum beatae minima esse, consequatur nemo officia corrupti vel earum optio quam doloremque voluptatem explicabo impedit blanditiis laudantium?</p>
+              <p>O supermercado Pão de Açúcar firmou parceria com a FoodDevs desde o início do projeto, sendo um dos primeiros mercados a fazer parte deste grande projeto e vem contribuindo com doações de produtos e alimentos todos os meses. Destaque para a unidade Ana Rosa, do bairro Vila Mariana na capital de São Paulo, que está sempre no topo das que mais contribuem com doações. </p>
             </div>
          </div>
          <div className="parceiro-02">
           <div className="texto-parceiro">
             <h1>Zaffari</h1>
             <img id="barraDivisoria" src={Barra} alt="barra divisória" />
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod enim, molestiae quisquam harum beatae minima esse, consequatur nemo officia corrupti vel earum optio quam doloremque voluptatem explicabo impedit blanditiis laudantium?</p>
+            <p>Maior rede de mercados do Rio Grande do Sul, os supermercados da rede Zaffari aderiram ao projeto recentemente, firmando o comprometimento com a nobre causa do projeto. A única unidade na capital paulista, localizada em Perdizes, contribui semanalmente com produtos destinados as entidades assistenciais.   </p>
           </div> 
           <img ref={imageRef2} className="imagem-mercado" src={Zaffari} alt="Imagem do mercado Zaffari" />
          </div>

@@ -59,6 +59,8 @@
     margin: 20px auto;
     padding: 10px;
     display: flex;
-    flex-wrap: wrap;
+  }
+  .upload-arquivo{
+    width: 100%;
   }
 }

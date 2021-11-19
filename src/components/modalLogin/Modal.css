@@ -27,7 +27,7 @@
   width: 350px;
   padding: 15px;
   border-radius: 10px;
-  background-color: rgb(226, 226, 226);
+  background-color: rgb(255, 255, 255);
   transform: translateY(-200px);
   transition: all 0.3s ease-in-out;
 }
@@ -88,8 +88,8 @@
 }
 
 .form-login input{
-  color: #fff;
-  background-color: rgb(226, 226, 226);
+  color: #202020;
+  background-color: rgb(255, 255, 255);
   width: 300px;
   border-bottom: 2px solid #adadad;
   margin: 0 auto;
