@@ -61,7 +61,7 @@ export default function Home() {
         <div className="cabecalho">
           <img src={CapaHome} alt="caminhão com alimentos para doação sendo descarregado por 3 pessoas" />
           <div className="cabecalho-texto">
-            <h1>DESPERDICE <br/> ALIMENTOS OU DOE</h1>
+            <h1>NÃO DESPERDICE <br/> ALIMENTOS OU DOE</h1>
             <h3>A OPÇÃO É SUA</h3>
           </div>
         </div>
